@@ -88,8 +88,8 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 
 # Auto delete time in seconds.
 AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
-AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "This file will be automatically deleted in {time} seconds. Please ensure you have saved any necessary content before this time.")
-AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has been successfully deleted. Thank you for using our service. ✅")
+AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "𝕋𝕙𝕚𝕤 𝕗𝕚𝕝𝕖 𝕨𝕚𝕝𝕝 𝕓𝕖 𝕒𝕦𝕥𝕠𝕞𝕒𝕥𝕚𝕔𝕒𝕝𝕝𝕪 𝕕𝕖𝕝𝕖𝕥𝕖𝕕 𝕚𝕟 {𝕥𝕚𝕞𝕖} 𝕤𝕖𝕔𝕠𝕟𝕕𝕤. ℙ𝕝𝕖𝕒𝕤𝕖 𝕖𝕟𝕤𝕦𝕣𝕖 𝕪𝕠𝕦 𝕙𝕒𝕧𝕖 𝕤𝕒𝕧𝕖𝕕 𝕒𝕟𝕪 𝕟𝕖𝕔𝕖𝕤𝕤𝕒𝕣𝕪 𝕔𝕠𝕟𝕥𝕖𝕟𝕥 𝕓𝕖𝕗𝕠𝕣𝕖 𝕥𝕙𝕚𝕤 𝕥𝕚𝕞𝕖.")
+AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "𝕐𝕠𝕦𝕣 𝕗𝕚𝕝𝕖 𝕙𝕒𝕤 𝕓𝕖𝕖𝕟 𝕤𝕦𝕔𝕔𝕖𝕤𝕤𝕗𝕦𝕝𝕝𝕪 𝕕𝕖𝕝𝕖𝕥𝕖𝕕. 𝕋𝕙𝕒𝕟𝕜 𝕪𝕠𝕦 𝕗𝕠𝕣 𝕦𝕤𝕚𝕟𝕘 𝕠𝕦𝕣 𝕤𝕖𝕣𝕧𝕚𝕔𝕖. ✅")
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
