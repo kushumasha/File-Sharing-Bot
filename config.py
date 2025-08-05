@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "14689508"))
 API_HASH = os.environ.get("API_HASH", "79413cfe2d8cc93ddf1815ef588e80d5")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002792211269"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002819669622"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7484783061"))
@@ -37,7 +37,25 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "0"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","https://graph.org/file/3e4eb3a61c207944b19fb-d9a894afb5e44ef953.jpg")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "╭──────────────────⦿
+│ ▸ ʜᴇʏ {first}\n\n<b>🤗
+│ ▸ Tʜɪs Is  ˹ Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ ˼ 
+├───────────────────⦿
+│ ▸ ᴛʜɪs ɢʀᴏᴜᴘ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ᴘᴏᴡᴇʀ .
+│ ▸ᴛʜɪs ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ.
+├───────────────────⦿
+│ ▸ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
+│ ▸ ʙᴏᴛ ғᴏʀ ғɪʟᴇ sᴛᴏʀᴇ .
+│ ▸ ʏᴏᴜ ᴄᴀɴ sᴛᴏʀᴇ ʏᴏᴜʀ ʙɪɢ ғɪʟᴇ .
+│ ▸ 📂 ғɪʟᴇ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴᴅ sʜᴀʀᴇ ᴛᴏ 
+│ ʏᴏᴜʀ ғʀɪᴇɴᴅ ʟɪᴋᴇ ᴡᴏᴡ
+│ ▸ 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ
+├───────────────────⦿
+│ ᴡᴇ ᴡɪʟʟ ᴀᴅᴅ ᴍᴏʀᴇ ➕ ᴛʜɪɴɢs 
+│ ᴍᴀᴅᴇ ʙʏ... @Nobita_X_Surya 
+╰───────────────────⦿ 
+➻ ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ.
+──────────────────")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "7484783061 7169497576").split()):
@@ -46,7 +64,21 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hi {first}\n\n<b>✨
+
+Tʜɪs Is Tʜᴇ Bɪɢɢᴇsᴛ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ 📂
+
+┌────── ˹ ᴡʜʏ ʏᴏᴜ ᴊᴏɪɴ ˼───⏤‌‌●
+┆◍ ʜєʏ, {first}\n\n<b>🥀
+┆◍ ɪ ᴧϻ ˹File Store Bot ˼
+└──────────────────────• 
+
+ɪ ᴀᴍ ᴛʜᴇ ғᴀsᴛᴇsᴛ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ 
+➥ Mᴀᴋᴇ Yᴏᴜʀ Fɪʟᴇ ʟɪɴᴋ 🔗
+➥ Fᴏʀ Jᴏɪɴ Yᴏᴜ A Wɪʟʟ A ❣ Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀ .
+•──────────────────────•
+✦ᴘᴏᴡєʀєᴅ ʙʏ » Sᴜʀʏᴀ 🜲
+•──────────────────────•")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
